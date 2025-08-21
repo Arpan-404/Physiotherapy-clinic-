@@ -1717,5 +1717,14 @@ body {
         align-items: flex-end;
     }
 }
+/* ✅ Hide "Therapeutic Moves" title below hero */
+#heroTitle {
+    display: none !important;
+}
+
+/* Optional: Also hide the tagline if you want */
+/* #heroTagline {
+    display: none !important;
+} */
 
 
