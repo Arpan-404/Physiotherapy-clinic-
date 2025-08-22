@@ -376,8 +376,8 @@ function renderServicesPreview() {
             <div class="service-preview-title">${service.title}</div>
             <div class="service-preview-description">${service.description}</div>
             <div class="service-buttons">
-                <button class="btn btn-secondary" onclick="showServiceDetails(${JSON.stringify(service).replace(/"/g, '&quot;')})">View Details</button>
-                <button class="btn btn-primary" onclick="buyService('${service.title}')">🛒 Buy</button>
+                <button class="btn btn-secondary" onclick="showServiceDetails(${JSON.stringify(service).replace(/"/g, '&quot;')})">Details</button>
+                <button class="btn btn-primary" onclick="buyService('${service.title}')">Appointment</button>
             </div>
         `;
         container.appendChild(serviceCard);
@@ -517,7 +517,7 @@ function renderServices() {
             <div class="service-description">${service.description}</div>
             <div class="service-buttons">
                 <button class="btn btn-secondary" onclick="showServiceDetails(${JSON.stringify(service).replace(/"/g, '&quot;')})">View Details</button>
-                <button class="btn btn-primary" onclick="buyService('${service.title}')">🛒 Buy Service</button>
+                <button class="btn btn-primary" onclick="buyService('${service.title}')">Appointment</button>
             </div>
         `;
         container.appendChild(serviceCard);
