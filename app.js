@@ -22,9 +22,9 @@ const auth = getAuth(app);
 window.loadingState = { isLoading: true };
 
 setTimeout(() => {
-    console.log('✅ Force hiding loading overlay after 3 seconds');
+    console.log('✅ Force hiding loading overlay after 1.3 seconds');
     hideLoadingOverlay();
-}, 3000);
+}, 1300);
 
 function hideLoadingOverlay() {
     const overlay = document.getElementById('loadingOverlay');
